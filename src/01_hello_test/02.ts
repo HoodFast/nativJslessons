@@ -1,5 +1,5 @@
 
-type StudentsType = {
+export type StudentsType = {
     id:number
     name:string
     age:number
