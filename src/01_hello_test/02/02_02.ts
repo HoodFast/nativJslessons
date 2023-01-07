@@ -6,14 +6,14 @@ type AddressType = {
     number:number
     street: streetType
 }
-type houseType = {
+export type houseType = {
     buildAt:number
     repaired:boolean
     address:AddressType
 }
 
 
-type govermentBuildType = {
+export type govermentBuildType = {
     type:string
     budget:number
     staffcount:number
